@@ -6,6 +6,10 @@ html, body,
 
 #app {
     display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    align-content: center;
 }
 
 .box {
@@ -13,5 +17,4 @@ html, body,
     height: 60px;
     background-color : #f00;
     margin: 5px;
-    flex:1 0;
 }
